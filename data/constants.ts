@@ -1,0 +1,60 @@
+import { Aksara, Sandhangan } from '../types';
+
+export const NGLEGENA_DATA: Aksara[] = [
+  { char: 'ꦲ', latin: 'Ha', type: 'nglegena' },
+  { char: 'ꦤ', latin: 'Na', type: 'nglegena' },
+  { char: 'ꦕ', latin: 'Ca', type: 'nglegena' },
+  { char: 'ꦫ', latin: 'Ra', type: 'nglegena' },
+  { char: 'ꦏ', latin: 'Ka', type: 'nglegena' },
+  { char: 'ꦢ', latin: 'Da', type: 'nglegena' },
+  { char: 'ꦠ', latin: 'Ta', type: 'nglegena' },
+  { char: 'ꦱ', latin: 'Sa', type: 'nglegena' },
+  { char: 'ꦮ', latin: 'Wa', type: 'nglegena' },
+  { char: 'ꦭ', latin: 'La', type: 'nglegena' },
+  { char: 'ꦥ', latin: 'Pa', type: 'nglegena' },
+  { char: 'ꦝ', latin: 'Dha', type: 'nglegena' },
+  { char: 'ꦗ', latin: 'Ja', type: 'nglegena' },
+  { char: 'ꦪ', latin: 'Ya', type: 'nglegena' },
+  { char: 'ꦚ', latin: 'Nya', type: 'nglegena' },
+  { char: 'ꦩ', latin: 'Ma', type: 'nglegena' },
+  { char: 'ꦒ', latin: 'Ga', type: 'nglegena' },
+  { char: 'ꦧ', latin: 'Ba', type: 'nglegena' },
+  { char: 'ꦛ', latin: 'Tha', type: 'nglegena' },
+  { char: 'ꦔ', latin: 'Nga', type: 'nglegena' },
+];
+
+// Pasangan mapping (using the standard unicode subscript forms where applicable or descriptive representation)
+export const PASANGAN_DATA: Aksara[] = [
+  { char: '꧀ꦲ', latin: 'Pasangan Ha', type: 'pasangan' },
+  { char: '꧀ꦤ', latin: 'Pasangan Na', type: 'pasangan' },
+  { char: '꧀ꦕ', latin: 'Pasangan Ca', type: 'pasangan' },
+  { char: '꧀ꦫ', latin: 'Pasangan Ra', type: 'pasangan' },
+  { char: '꧀ꦏ', latin: 'Pasangan Ka', type: 'pasangan' },
+  { char: '꧀ꦢ', latin: 'Pasangan Da', type: 'pasangan' },
+  { char: '꧀ꦠ', latin: 'Pasangan Ta', type: 'pasangan' },
+  { char: '꧀ꦱ', latin: 'Pasangan Sa', type: 'pasangan' },
+  { char: '꧀ꦮ', latin: 'Pasangan Wa', type: 'pasangan' },
+  { char: '꧀ꦭ', latin: 'Pasangan La', type: 'pasangan' },
+  { char: '꧀ꦥ', latin: 'Pasangan Pa', type: 'pasangan' },
+  { char: '꧀ꦝ', latin: 'Pasangan Dha', type: 'pasangan' },
+  { char: '꧀ꦗ', latin: 'Pasangan Ja', type: 'pasangan' },
+  { char: '꧀ꦪ', latin: 'Pasangan Ya', type: 'pasangan' },
+  { char: '꧀ꦚ', latin: 'Pasangan Nya', type: 'pasangan' },
+  { char: '꧀ꦩ', latin: 'Pasangan Ma', type: 'pasangan' },
+  { char: '꧀ꦒ', latin: 'Pasangan Ga', type: 'pasangan' },
+  { char: '꧀ꦧ', latin: 'Pasangan Ba', type: 'pasangan' },
+  { char: '꧀ꦛ', latin: 'Pasangan Tha', type: 'pasangan' },
+  { char: '꧀ꦔ', latin: 'Pasangan Nga', type: 'pasangan' },
+];
+
+export const SANDHANGAN_DATA: Sandhangan[] = [
+  { name: 'Wulu', char: 'ꦶ', position: 'Atas', function: 'Bunyi i', example: 'ꦱꦶꦗꦶ', exampleLatin: 'Siji' },
+  { name: 'Suku', char: 'ꦸ', position: 'Bawah', function: 'Bunyi u', example: 'ꦧꦸꦏꦸ', exampleLatin: 'Buku' },
+  { name: 'Pepet', char: 'ꦼ', position: 'Atas', function: 'Bunyi e (seperti "elange")', example: 'ꦱꦼꦒ', exampleLatin: 'Sega' },
+  { name: 'Taling', char: 'ꦺ', position: 'Depan', function: 'Bunyi é (seperti "ember")', example: 'ꦭꦺꦭꦺ', exampleLatin: 'Lélé' },
+  { name: 'Taling Tarung', char: 'ꦺ ꦴ', position: 'Apit', function: 'Bunyi o', example: 'ꦱꦺꦴꦠꦺꦴ', exampleLatin: 'Soto' },
+  { name: 'Layar', char: 'ꦂ', position: 'Atas', function: 'Mati r', example: 'ꦥꦱꦂ', exampleLatin: 'Pasar' },
+  { name: 'Wignyan', char: 'ꦃ', position: 'Belakang', function: 'Mati h', example: 'ꦒꦗꦃ', exampleLatin: 'Gajah' },
+  { name: 'Cecak', char: 'ꦁ', position: 'Atas', function: 'Mati ng', example: 'ꦏꦕꦁ', exampleLatin: 'Kacang' },
+  { name: 'Pangkon', char: '꧀', position: 'Belakang', function: 'Mematikan huruf', example: 'ꦧꦥꦏ꧀', exampleLatin: 'Bapak' },
+];
